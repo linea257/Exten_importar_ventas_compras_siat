@@ -1,6 +1,6 @@
 Package: importar_ventas_compras_siat
 Name: "Importar Ventas y Compras SIAT"
-Version: 1.0.0
+Version: "1.0.0"
 Description: Extension para la importación y contabilización de ventas y compras del SIAT de Bolivia mediante archivos CSV
 Author: Bolivia Impuestos
 Type: extension
