@@ -3,7 +3,7 @@
  * importar_compras_ventas.php – versión 100 % funcional con SECCIONES
  * =========================================================================*/
 $page_security = 'SA_OPEN';
-$path_to_root  = "..";
+$path_to_root  = "../../..";
 
 /* ─── includes de FrontAccounting ─── */
 include($path_to_root . "/includes/db_pager.inc");
@@ -300,14 +300,14 @@ if(isset($_POST['action']) && $_POST['action']==='process_csv'){
 page(_("COMPRAS Y VENTAS SIAT"));
 
 echo '<link rel="stylesheet" type="text/css" href="'.$path_to_root.'/css/datatables.min.css">';
-echo '<script type="text/javascript" src="../js/jquery.js"></script>';
-echo '<script type="text/javascript" src="../js/datatables.min.js"></script>';
-echo '<script type="text/javascript" src="../js/dataTablesEspanol.js"></script>';
-echo '<script type="text/javascript" src="../js/encodingFix.js"></script>';
-echo '<script type="text/javascript" src="../js/importar_compras.js"></script>';
-echo '<script type="text/javascript" src="../js/importar_ventas.js"></script>';
-echo '<script type="text/javascript" src="../js/selectorColumna.js"></script>';
-echo '<script type="text/javascript" src="../js/gestion_secciones.js"></script>';
+echo '<script type="text/javascript" src="../../../js/jquery.js"></script>';
+echo '<script type="text/javascript" src="../../../js/datatables.min.js"></script>';
+echo '<script type="text/javascript" src="../../../js/dataTablesEspanol.js"></script>';
+echo '<script type="text/javascript" src="../../../js/encodingFix.js"></script>';
+echo '<script type="text/javascript" src="../../../js/importar_compras.js"></script>';
+echo '<script type="text/javascript" src="../../../js/importar_ventas.js"></script>';
+echo '<script type="text/javascript" src="../../../js/selectorColumna.js"></script>';
+echo '<script type="text/javascript" src="../../../js/gestion_secciones.js"></script>';
 
 
 ?>
